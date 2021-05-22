@@ -1,0 +1,24 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+Pt DC convergence is used.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `X2.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `X2.em_data':
+       S-parameter passivity is enforced.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `X1.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
+
+SP SP1[1] <HW_lib:PMA-183PLN:schematic>   freq=(7 GHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    COMPONENT `X1.em_data':
+       Simulator uses frequency higher than frequency range for model. The S-parameters are extrapolated.
+
+
+Resource usage:
+  Total stopwatch time     =     0.53 seconds.
+

@@ -1,0 +1,37 @@
+<emDataViewDatabaseIndex>
+  <version minor="1" major="1"/>
+  <emDatabase>
+    <ParameterNames>
+      <parameterName>W50</parameterName>
+      <parameterName>WT</parameterName>
+      <parameterName>WS</parameterName>
+      <parameterName>LS</parameterName>
+      <parameterName>LT</parameterName>
+      <parameterName>Linline</parameterName>
+      <parameterName>Winline</parameterName>
+    </ParameterNames>
+    <databaseItems>
+      <databaseItem index="2" name="data.002">
+        <parameterValues>
+          <value>1.1 mm</value>
+          <value>1.1 mm</value>
+          <value>1.1 mm</value>
+          <value>1.6 mm</value>
+          <value>1.1 mm</value>
+          <value>0.7 mm</value>
+          <value>0.3 mm</value>
+        </parameterValues>
+        <fileNames>
+          <name>data.002.sio</name>
+          <name>data.002.sam</name>
+          <name>data.002.log.zip</name>
+        </fileNames>
+        <originalFileNames>
+          <name>proj.sio</name>
+          <name>proj.sam</name>
+          <name>proj.log.zip</name>
+        </originalFileNames>
+      </databaseItem>
+    </databaseItems>
+  </emDatabase>
+</emDataViewDatabaseIndex>

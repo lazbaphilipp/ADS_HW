@@ -1,0 +1,67 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  C:/Users/Afterer/Desktop/Stuffdy/MIET-RF-PCB-Design/Project/HW_wrk/simulation/HW_lib/MFilter8_5G_Design/layout/emSetup_MoM/EMDS4ADS.prf 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material __BOTTOM     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object __BOTTOM_2     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond_3     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_4     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_5     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_6     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_7     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_8     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_9     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_10     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_11     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object __BOTTOM_2 1  0  50  
+  Object cond_3 1  0  50  
+  Object cond_4 1  0  50  
+  Object cond_5 1  0  50  
+  Object cond_6 1  0  50  
+  Object cond_7 1  0  50  
+  Object cond_8 1  0  50  
+  Object cond_9 1  0  50  
+  Object cond_10 1  0  50  
+  Object cond_11 1  0  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position     2.3466066360473633e+01     -1.2629750251770020e+01      7.2180770874023438e+01  
+  Target     2.3466066360473633e+01     -1.3057748794555664e+01      5.0484836101531982e-01  
+  Up     1.0000002384185791e+00     -1.5073965187184513e-08      2.8429198550838919e-08  
+      5.7341838836669922e+01      5.7341838836669922e+01  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

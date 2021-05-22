@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: C:\Users\Afterer\Desktop\Stuffdy\MIET-RF-PCB-Design\Project\Altium_Project\MIET_PCBD_Project\лояс.464342.21-005 T5M 2Layer.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_RFGND|Scope=Board|Minimum=196.85
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRingPAD|Scope=Board|Minimum=7.87
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRingVIA|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansionGNDVia|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=WidthRF|Scope=Board|Minimum=41.34
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91

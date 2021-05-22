@@ -1,0 +1,7 @@
+create_item("CLC_EMI","CLC_EMI","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","CLC_EMI","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",3,NULL,0,
+create_parm("W50","W50",68608,"StdFormSet",5,prm("StdForm","1.1 mm")),
+create_parm("Mit","Mit",68608,"StdFormSet",-1,prm("StdForm","0.2")),
+create_parm("Lfeed","Lfeed",68608,"StdFormSet",5,prm("StdForm","1.25 mm")),
+create_parm("CoupledW","CoupledW",68608,"StdFormSet",5,prm("StdForm","1.1 mm")),
+create_parm("CoupledS","CoupledS",68608,"StdFormSet",5,prm("StdForm","6 mm")),
+create_parm("CoupledL","CoupledL",68608,"StdFormSet",5,prm("StdForm","5.27 mm")));

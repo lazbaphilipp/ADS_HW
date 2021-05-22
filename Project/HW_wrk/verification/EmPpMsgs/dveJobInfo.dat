@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=HW_lib:MFilter8_5G_Design:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

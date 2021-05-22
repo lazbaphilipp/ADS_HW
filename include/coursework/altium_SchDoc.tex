@@ -1,0 +1,49 @@
+\chapter{Создание электрической схемы} \label{chap:altium-SchDoc}
+
+Так как схема большая, а места на листе мало, будем использовать иерархическую модель: схемы включения модулей изобразим на отдельных листах, а потом объединим их в общей схеме, используя элемент SheetSymbol.
+\section{МШУ}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth, height=0.25\textheight, keepaspectratio]{LNA_SchDoc.pdf}
+	\caption{Схема включения МШУ}%
+	\label{fig:LNA-SchDoc}
+\end{figure}
+
+\section{Детектор мощности}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth, height=0.25\textheight, keepaspectratio]{PD_SchDoc.pdf}
+	\caption{Схема включения детектора мощности}%
+	\label{fig:PD-SchDoc}
+\end{figure}
+
+\section{Микроконтроллер}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth, height=0.25\textheight, keepaspectratio]{MC_SchDoc.pdf}
+	\caption{Схема включения микроконтроллера}%
+	\label{fig:MC-SchDoc}
+\end{figure}
+
+\section{Питание}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth, height=0.5\textheight, keepaspectratio]{PM_SchDoc.pdf}
+	\caption{Схема включения преобразователей напряжения}%
+	\label{fig:PM-SchDoc}
+\end{figure}
+
+\section{Общий вид}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{Main_SchDoc.pdf}
+	\caption{Главная схема}%
+	\label{fig:Main_SchDoc}
+\end{figure}
+
+На главной схеме зададим классы для линий элементов. (это упростит дальнейшую работу с топологией)

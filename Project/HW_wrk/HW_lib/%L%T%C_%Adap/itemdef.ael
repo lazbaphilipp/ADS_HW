@@ -1,0 +1,8 @@
+create_item("LTC_Adap","LTC_Adap","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","LTC_Adap","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",3,NULL,0,
+create_parm("W50","W50",68608,"StdFormSet",5,prm("StdForm","1.1 mm")),
+create_parm("WT","WT",68608,"StdFormSet",5,prm("StdForm","1.1 mm")),
+create_parm("WS","WS",68608,"StdFormSet",5,prm("StdForm","1.1 mm")),
+create_parm("LS","LS",68608,"StdFormSet",5,prm("StdForm","1.6 mm")),
+create_parm("LT","LT",68608,"StdFormSet",5,prm("StdForm","1.1 mm")),
+create_parm("Linline","LT",68608,"StdFormSet",5,prm("StdForm","0.7 mm")),
+create_parm("Winline","LT",68608,"StdFormSet",5,prm("StdForm","0.3 mm")));

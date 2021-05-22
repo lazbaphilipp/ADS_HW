@@ -1,0 +1,49 @@
+
+hpeesofsim (*) 510.shp Jul 22 2019, MINT version 5
+    (64-bit windows built: Mon Jul 22, 2019 22:53:59 +0000)
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 5
+
+Pt DC convergence is used.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `OT.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `OT.em_data':
+       S-parameter passivity is enforced.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `LNA2.X2.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `LNA2.X1.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `X1.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
+
+SP SP1[1] <HW_lib:Main:schematic>   freq=(7 GHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The DC (0 Hz) value has not been specified in the Touchstone file
+    'C:/Users/ntuser/Desktop/ADS_HW/HW_wrk/data/Components/MFliter_8.5GHz_Mom_MFilter_0.5GW.s2p'.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `C:/Users/ntuser/Desktop/ADS_HW/HW_wrk/data/Components/MFliter_8.5GHz_Mom_MFilter_0.5GW.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Noise data in the Touchstone file `C:/Users/ntuser/Desktop/ADS_HW/HW_wrk/data/Components/MFliter_8.5GHz_Mom_MFilter_0.5GW.s2p'
+    does not cover the current value of `freq'. Therefore, if noise
+    simulation is requested the data will be obtained by extrapolation.
+
+
+Resource usage:
+  Total stopwatch time     =     6.62 seconds.
+
