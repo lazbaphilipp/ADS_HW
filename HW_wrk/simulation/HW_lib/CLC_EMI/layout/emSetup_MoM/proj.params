@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+    <parameter name="W50" value="1.1 mm"/>
+    <parameter name="Mit" value="0.2"/>
+    <parameter name="Lfeed" value="1.25 mm"/>
+    <parameter name="CoupledW" value="1.1 mm"/>
+    <parameter name="CoupledS" value="6 mm"/>
+    <parameter name="CoupledL" value="5.27 mm"/>
+</parameters>

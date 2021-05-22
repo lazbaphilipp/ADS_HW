@@ -1,0 +1,67 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+CT Sweep1[1] <HW_lib:MiterC:schematic>   Mit=(0->900e-03)
+
+SP Sweep1[1].SP1[1/19] <HW_lib:MiterC:schematic>  Mit=0  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[2/19] <HW_lib:MiterC:schematic>  Mit=50e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[3/19] <HW_lib:MiterC:schematic>  Mit=100e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[4/19] <HW_lib:MiterC:schematic>  Mit=150e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[5/19] <HW_lib:MiterC:schematic>  Mit=200e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[6/19] <HW_lib:MiterC:schematic>  Mit=250e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[7/19] <HW_lib:MiterC:schematic>  Mit=300e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[8/19] <HW_lib:MiterC:schematic>  Mit=350e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[9/19] <HW_lib:MiterC:schematic>  Mit=400e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[10/19] <HW_lib:MiterC:schematic>  Mit=450e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[11/19] <HW_lib:MiterC:schematic>  Mit=500e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[12/19] <HW_lib:MiterC:schematic>  Mit=550e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[13/19] <HW_lib:MiterC:schematic>  Mit=600e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[14/19] <HW_lib:MiterC:schematic>  Mit=650e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[15/19] <HW_lib:MiterC:schematic>  Mit=700e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[16/19] <HW_lib:MiterC:schematic>  Mit=750e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[17/19] <HW_lib:MiterC:schematic>  Mit=800e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[18/19] <HW_lib:MiterC:schematic>  Mit=850e-03  freq=(4 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[19/19] <HW_lib:MiterC:schematic>  Mit=900e-03  freq=(4 GHz->10 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     8.78 seconds.
+

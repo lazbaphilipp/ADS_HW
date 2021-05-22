@@ -1,0 +1,14 @@
+COMPONENT: em_data;
+NROFMODELS: 1;
+MODEL: RF, Layout, 0, 10, 20, 45, 0, 1;
+SUBSTRATE: definedInState;
+NROFPARAM: 6;
+PARAM: W50, 0.0, 0.0, 0.0, 75e-6, 100e-9, None, -1;
+PARAM: Mit, 0.0, 0.0, 0.0, 0.02, 10e-6, None, -1;
+PARAM: Lfeed, 0.0, 0.0, 0.0, 75e-6, 100e-9, None, -1;
+PARAM: CoupledW, 0.0, 0.0, 0.0, 75e-6, 100e-9, None, -1;
+PARAM: CoupledS, 0.0, 0.0, 0.0, 75e-6, 100e-9, None, -1;
+PARAM: CoupledL, 0.0, 0.0, 0.0, 75e-6, 100e-9, None, -1;
+NROFSAMPLES: 1;
+SAMPLEFILE: data.001.sio;
+SAMPLE: 0.0011, 0.2, 0.00125, 0.0011, 0.006, 0.00527;
