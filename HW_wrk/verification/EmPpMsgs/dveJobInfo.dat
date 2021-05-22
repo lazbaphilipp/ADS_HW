@@ -1,5 +1,5 @@
 jobName=EmPpMsgs
 jobType=emprep
-designName=HW_lib:PMA_Adap_out:layout
+designName=HW_lib:MainAdap:layout
 ruleFilePath=
 addInfo="EM preprocessor messages displayed as DRC errors"
