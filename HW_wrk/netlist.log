@@ -12,7 +12,7 @@ em_data_name="HW_lib:PMA_Adap_in:emModel"
 MomCmpt:em_data  P1 P2 P3 \
     name=em_data_name \
     paramFile="" \
-    modelFile="H:/ADS_HW/HW_wrk/HW_lib/%P%M%A_%Adap_in/em%Model/model.ndx" \
+    modelFile="C:/Users/ntuser/Desktop/ADS_HW/HW_wrk/HW_lib/%P%M%A_%Adap_in/em%Model/model.ndx" \
     ModelReuse=1 \
     ModelType="MOMMW" \
     ExtrapolationMode="linear" \
@@ -29,7 +29,7 @@ em_data_name="HW_lib:PMA_Adap_out:emModel"
 MomCmpt:em_data  P1 P2 P3 \
     name=em_data_name \
     paramFile="" \
-    modelFile="H:/ADS_HW/HW_wrk/HW_lib/%P%M%A_%Adap_out/em%Model/model.ndx" \
+    modelFile="C:/Users/ntuser/Desktop/ADS_HW/HW_wrk/HW_lib/%P%M%A_%Adap_out/em%Model/model.ndx" \
     ModelReuse=1 \
     ModelType="MOMMW" \
     ExtrapolationMode="linear" \
@@ -58,7 +58,7 @@ em_data_v5=CoupledL
 MomCmpt:em_data  P1 P2 P3 P4 \
     name=em_data_name \
     paramFile="" \
-    modelFile="H:/ADS_HW/HW_wrk/HW_lib/%C%L%C_%E%M%I/em%Model/model.ndx" \
+    modelFile="C:/Users/ntuser/Desktop/ADS_HW/HW_wrk/HW_lib/%C%L%C_%E%M%I/em%Model/model.ndx" \
     p0="W50" v0=W50 v0_Resolution=0.0001 mm \
     p1="Mit" v1=Mit v1_Resolution=1e-05 \
     p2="Lfeed" v2=Lfeed v2_Resolution=0.0001 mm \
@@ -77,7 +77,7 @@ end CLC_EMI
 define Filter ( P1  P2 ) 
 ;parameters 
 #uselib "ckt" , "S2P"
-S2P:SNP1  P1 P2 0 File="H:\ADS_HW\HW_wrk\data\Components\MFliter_8.5GHz_Mom_MFilter_0.5GW.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+S2P:SNP1  P1 P2 0 File="C:\Users\ntuser\Desktop\ADS_HW\HW_wrk\data\Components\MFliter_8.5GHz_Mom_MFilter_0.5GW.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 end Filter
 
 ; Library Name: HW_lib
@@ -90,7 +90,7 @@ em_data_name="HW_lib:MainAdap:emModel"
 MomCmpt:em_data  P1 P2 P3 \
     name=em_data_name \
     paramFile="" \
-    modelFile="H:/ADS_HW/HW_wrk/HW_lib/%Main%Adap/em%Model/model.ndx" \
+    modelFile="C:/Users/ntuser/Desktop/ADS_HW/HW_wrk/HW_lib/%Main%Adap/em%Model/model.ndx" \
     ModelReuse=1 \
     ModelType="MOMMW" \
     ExtrapolationMode="linear" \
@@ -103,9 +103,9 @@ end MainAdap
 define "PMA-183PLN" ( P1  P2 ) 
 ;parameters 
 #uselib "sml" , "Amplifier2"
-Amplifier2:AMP1  N__1 N__10 S21=file{DAC_PMA183PLN, "S[2,1]"} S11=file{DAC_PMA183PLN,"S[1,1]"} S22=file{DAC_PMA183PLN,"S[2,2]"} S12=file{DAC_PMA183PLN,"S[1,2]"} GainCompType=0 GainCompFreq=RF_center ReferToInput=0 TOI=22 _dBm GainCompSat=5.0 dB GainCompPower=9 _dBm GainComp=1.0 dB ClipDataFile=1 
+Amplifier2:AMP1  N__8 N__10 S21=file{DAC_PMA183PLN, "S[2,1]"} S11=file{DAC_PMA183PLN,"S[1,1]"} S22=file{DAC_PMA183PLN,"S[2,2]"} S12=file{DAC_PMA183PLN,"S[1,2]"} GainCompType=0 GainCompFreq=RF_center ReferToInput=0 TOI=22 _dBm GainCompSat=5.0 dB GainCompPower=9 _dBm GainComp=1.0 dB ClipDataFile=1 
 #uselib "ckt" , "DAC"
-DAC:DAC_PMA183PLN  File="H:\ADS_HW\HW_wrk\data\Components\PMA-183PLN+_S2P\PMA-183PLN+_2.6V_Plus25DegC_TB1.s2p" Type="touchstone" InterpMode="linear" InterpDom="ma" ExtrapMode="interpMode" iVar1="freq" iVal1=freq 
+DAC:DAC_PMA183PLN  File="C:\Users\ntuser\Desktop\ADS_HW\HW_wrk\data\Components\PMA-183PLN+_S2P\PMA-183PLN+_2.6V_Plus25DegC_TB1.s2p" Type="touchstone" InterpMode="linear" InterpDom="ma" ExtrapMode="interpMode" iVar1="freq" iVal1=freq 
 model MSub1 MSUB H=0.508 mm Er=3.55  Mur=1 Cond=1.0E+50 Hu=1e+33 mm T=17 um TanD=0.002  Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
 aele VSWR1=vswr(S11);VSWR2=vswr(S22);
 aele StabFact1=stab_fact(S);
@@ -134,6 +134,7 @@ Ltrail=(1+0) mm
 Wtrail=(1.1-0.1) mm
 Laddin=(1.3+0.0) mm
 PMA_Adap_out:X2  N__10 N__11 P2 
+Noisy2Port:SRC1  N__1 N__8 0 NFmin=1.2 dB Rn=(50/4)*((10^(1.2/10))-1) Sopt=0.0 
 end "PMA-183PLN"
 
 "PMA-183PLN":LNA1  N__1 N__0 
@@ -144,7 +145,7 @@ CLC_EMI:X1  N__10 N__12 N__5 N__3 W50=1.1 mm Mit=0.2 Lfeed=1.25 mm CoupledW=1.1 
 Port:TermG2  N__13 0 Num=2 Z=50 Ohm Noise=yes 
 Port:TermG3  N__3 0 Num=3 Z=50 Ohm Noise=yes 
 Port:TermG4  N__5 0 Num=4 Z=50 Ohm Noise=yes 
-S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 NoiseInputPort=1 NoiseOutputPort=2 \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
 SweepPlan: SP1_stim Start=7 GHz Stop=10.0 GHz Step=0.01 GHz 
@@ -159,4 +160,4 @@ OutputPlan:SP1_Output \
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
 model MSub1 MSUB H=0.508 mm Er=3.55  Mur=1  Cond=1.0E+50  Hu=1e+33 mm T=17 um TanD=0.002  Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-MainAdap:X2  N__12 N__4 N__13 
+MainAdap:OT  N__12 N__4 N__13 
