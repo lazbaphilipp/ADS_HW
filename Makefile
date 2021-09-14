@@ -3,5 +3,5 @@ svg2pdf:
 build:
 	pdflatex main.tex
 clean:
-	rm *.aux *.lof *.log *.lot *.fls *.out *.toc *.fmt *.fot *.cb *.cb2 *.lb *.xml *.bcf *.synctex.gz */*.aux */*.lof */*.log */*.lot */*.fls */*.out */*.toc */*.fmt */*.fot */*.cb */*.cb2 */*.lb */*.xml */*.bcf */*.synctex.gz
+	rm *.aux *.lof *.log *.lot *.fls *.out *.toc *.fmt *.fot *.cb *.cb2 *.lb *.xml *.bcf *.synctex.gz *.bbl *.bcf *.blg */*.aux */*.lof */*.log */*.lot */*.fls */*.out */*.toc */*.fmt */*.fot */*.cb */*.cb2 */*.lb */*.xml */*.bcf */*.synctex.gz
 
