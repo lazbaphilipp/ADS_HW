@@ -31,9 +31,6 @@
 \usepackage{mathrsfs}
 \usepackage{gensymb}
 
-%% Extra work with chemistry
-\usepackage{bpchem}
-
 %% My commands
 \DeclareMathOperator{\sgn}{\mathop{sgn}}
 
@@ -56,7 +53,6 @@
 \usepackage{subcaption}
 \usepackage{caption}
 \renewcommand\thesubfigure{\asbuk{subfigure}}
-
 \usepackage{wrapfig} % Обтекание рисунков и таблиц текстом
 
 %% Tables
@@ -72,11 +68,13 @@
 \usepackage{lastpage}
 \usepackage{soul}
 \usepackage{csquotes}
-\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
 \usepackage{multicol}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
+
+\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
+\addbibresource{include/references.bib}
 
 \setcounter{tocdepth}{1}
 \usepackage[shortcuts]{extdash}
