@@ -1,0 +1,88 @@
+FRAMEWORKÿ2ÿ
+ICONÿ/ÿfileÿHW_libÿ/HW_lib:fileÿ0ÿ0ÿÿ
+ICONÿ/HW_lib:fileÿdesignÿMFilter8_5G_Designÿ/HW_lib:file/MFilter8_5G_Design:designÿ0ÿ0ÿÿ
+SCIONPAGEÿ/HW_lib:file/MFilter8_5G_Design:designÿADS_ITEM_NAME=MFilter8_5G_DesignÿADS_ITEM_LABEL=MFilter8_5G_DesignÿADS_ITEM_ATTR=16ÿADS_ITEM_ATTR_EX=0ÿADS_ITEM_DIALOG_NAME=Component ParametersÿADS_ITEM_PRIORITY=-1ÿADS_ITEM_PREFIX=XÿADS_ITEM_DIALOG_DATA=ÿADS_ITEM_NET_FORMAT=%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%eÿADS_ITEM_NET_DATA=MFilter8_5G_DesignÿADS_ITEM_SCHEM_NAME=MFilter8_5G_DesignÿADS_ITEM_ART_DATA=ÿADS_ITEM_ART_TYPE=3ÿADS_ITEM_ICON=ÿADS_ITEM_FILE=C:\Users\Afterer\Desktop\Stuffdy\MIET-RF-PCB-Design\Project\HW_wrk\HW_lib\%M%Filter8_5%G_%Design\itemdef.aelÿADS_ITEM_DATE=1631391066ÿADS_ITEM_SIMTYPE=1ÿ
+SCIONOBJÿMÿMFilter8_5G_DesignÿIFF_PROPERTY_MAPPING_ADS=ÿHAS_SHEET=Yÿ
+ENDPAGEÿ
+SYMBOLPAGEÿ/HW_lib:file/MFilter8_5G_Design:designÿ0ÿ0ÿ1.25ÿ0.25ÿ0.125ÿONÿinÿ160ÿHPEESOF_DESIGN_CODE=1ÿ
+LINEÿ11ÿ1ÿ75ÿ0ÿ100ÿ0ÿ
+LINEÿ11ÿ1ÿ25ÿ0ÿ0ÿ0ÿ
+TEXTÿ1ÿ0ÿ1ÿ0,10,IN/100ÿNORMALÿ73.125ÿ-10ÿ2ÿ
+TEXTÿ1ÿ0ÿ1ÿ0,10,IN/100ÿNORMALÿ26.875ÿ-10ÿ1ÿ
+POLYÿ11ÿNÿ4ÿ25ÿ25ÿ75ÿ25ÿ75ÿ-25ÿ25ÿ-25ÿline_thickness_prop=1ÿ
+SYMPINÿ19ÿ0ÿ50ÿ0ÿANSI100ÿ0ÿ0ÿP1ÿ0ÿ0ÿFÿTÿ1ÿTÿ0ÿ0ÿORIGINALÿ
+SYMPINENDÿ
+SYMPINÿ19ÿ2ÿ50ÿ0ÿANSI100ÿ100ÿ0ÿP2ÿ100ÿ0ÿFÿTÿ2ÿTÿ100ÿ0ÿORIGINALÿ
+SYMPINENDÿ
+TEXTÿ8ÿ0ÿ27ÿ0,1300,IN/100ÿNORMALÿ0ÿ-1650ÿ@LABELÿ
+TEXTÿ8ÿ0ÿ27ÿ0,1300,IN/100ÿNORMALÿ0ÿ-3275ÿ@NAMEÿ
+ENDPAGEÿ
+CIRCUITPAGEÿ/HW_lib:file/MFilter8_5G_Design:designÿ1.25ÿ0.25ÿ0.125ÿONÿinÿ160ÿHPEESOF_DESIGN_CODE=1ÿADS_DESIGN_PROPERTY_HPEESOF_FULL_PATH=/HW_lib:file/MFilter8_5G_Design:designÿADS_DESIGN_PROPERTY_HPEESOF_DESIGN_CODE=1ÿ
+CONÿ5ÿ26ÿ0ÿOTHER FONTÿ150ÿ-575ÿPort_1ÿ150ÿ-575ÿ150ÿ-575ÿFÿTÿNÿCON_ID=Port_1ÿADS_CONN_NUM=1ÿNum=1ÿNAME= ÿ
+CONENDÿ
+CONÿ5ÿ26ÿ2ÿOTHER FONTÿ2366.875ÿ-1375ÿPort_2ÿ2366.875ÿ-1375ÿ2366.875ÿ-1375ÿFÿTÿNÿCON_ID=Port_2ÿADS_CONN_NUM=2ÿNum=2ÿNAME= ÿ
+CONENDÿ
+CMPÿ/ads_tlines:file/MLIN:designÿ0ÿ0ÿ150ÿ-575ÿ0ÿTL1ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WLead mmÿL=Llead mmÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MTEE_ADS:designÿ0ÿ3ÿ350ÿ-525ÿ0ÿDis1ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WRes mmÿW2=WRes mmÿW3=WLead mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ1ÿ350ÿ-425ÿ0ÿDis2ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WRes mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLIN:designÿ0ÿ1ÿ350ÿ-525ÿ0ÿTL2ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WRes mmÿL=LTAP1 mmÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLIN:designÿ0ÿ1ÿ350ÿ-725ÿ0ÿTL3ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WRes mmÿL=LTAP2 mmÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MBEND2:designÿ0ÿ6ÿ400ÿ-775ÿ0ÿDis3ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ433.125ÿ-775ÿ0ÿTL4ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿS=SC1 mmÿL=LR mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ533.125ÿ-775ÿ0ÿDis4ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ433.125ÿ-825ÿ0ÿDis5ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSTEP:designÿ0ÿ0ÿ533.125ÿ-825ÿ0ÿDis6ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WC1 mmÿW2=WC2 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ666.875ÿ-825ÿ0ÿTL5ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC2 mmÿS=SC2 mmÿL=LRB mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ766.875ÿ-825ÿ0ÿDis7ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC2 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ666.875ÿ-875ÿ0ÿDis8ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC2 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSTEP:designÿ0ÿ0ÿ766.875ÿ-875ÿ0ÿDis9ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WC2 mmÿW2=WC3 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ900ÿ-875ÿ0ÿTL6ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC3 mmÿS=SC3 mmÿL=LRB mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ1000ÿ-875ÿ0ÿDis10ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC3 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ900ÿ-925ÿ0ÿDis11ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC3 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSTEP:designÿ0ÿ0ÿ1000ÿ-925ÿ0ÿDis12ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WC3 mmÿW2=WC4 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ1133.125ÿ-925ÿ0ÿTL7ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC4 mmÿS=SC4 mmÿL=LRC mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ1233.125ÿ-925ÿ0ÿDis13ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC4 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ1133.125ÿ-975ÿ0ÿDis14ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC4 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSTEP:designÿ0ÿ0ÿ1233.125ÿ-975ÿ0ÿDis15ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WC4 mmÿW2=WC4 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ1366.875ÿ-975ÿ0ÿTL8ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC4 mmÿS=SC4 mmÿL=LRC mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ1466.875ÿ-975ÿ0ÿDis16ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC4 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ1366.875ÿ-1025ÿ0ÿDis17ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC4 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSTEP:designÿ0ÿ0ÿ1466.875ÿ-1025ÿ0ÿDis18ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WC4 mmÿW2=WC3 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ1600ÿ-1025ÿ0ÿTL9ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC3 mmÿS=SC3 mmÿL=LRB mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ1700ÿ-1025ÿ0ÿDis19ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC3 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ1600ÿ-1075ÿ0ÿDis20ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC3 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSTEP:designÿ0ÿ0ÿ1700ÿ-1075ÿ0ÿDis21ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WC3 mmÿW2=WC2 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ1833.125ÿ-1075ÿ0ÿTL10ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC2 mmÿS=SC2 mmÿL=LRB mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ1933.125ÿ-1075ÿ0ÿDis22ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC2 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ1833.125ÿ-1125ÿ0ÿDis23ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC2 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSTEP:designÿ0ÿ0ÿ1933.125ÿ-1125ÿ0ÿDis24ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WC2 mmÿW2=WC1 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MCLIN:designÿ0ÿ0ÿ2066.875ÿ-1125ÿ0ÿTL11ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿS=SC1 mmÿL=LR mmÿTemp=ÿW1=0 milÿW2=0 milÿW3=0 milÿW4=0 milÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ0ÿ2166.875ÿ-1125ÿ0ÿDis25ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ2ÿ2066.875ÿ-1175ÿ0ÿDis26ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MBEND2:designÿ0ÿ4ÿ2166.875ÿ-1175ÿ0ÿDis27ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WC1 mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLIN:designÿ0ÿ1ÿ2216.875ÿ-1325ÿ0ÿTL12ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WRes mmÿL=LTAP2 mmÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MTEE_ADS:designÿ0ÿ1ÿ2216.875ÿ-1425ÿ0ÿDis28ÿNÿNÿOFFÿSubst="MSUB_1"ÿW1=WRes mmÿW2=WRes mmÿW3=WLead mmÿTemp=ÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLIN:designÿ0ÿ1ÿ2216.875ÿ-1525ÿ0ÿTL13ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WRes mmÿL=LTAP1 mmÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLEF:designÿ0ÿ3ÿ2216.875ÿ-1525ÿ0ÿDis29ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WRes mmÿL=0 milÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MLIN:designÿ0ÿ0ÿ2266.875ÿ-1375ÿ0ÿTL14ÿNÿNÿOFFÿSubst="MSUB_1"ÿW=WLead mmÿL=Llead mmÿWall1=2.5e+28 mmÿWall2=2.5e+28 mmÿTemp=ÿMod=KirschningÿNAME= ÿ
+CMPÿ/ads_tlines:file/MSUB:designÿ0ÿ0ÿ866.875ÿ-362.5ÿ0ÿMSUB_1ÿNÿNÿOFFÿH=20 milÿEr=3.38 ÿMur=1 ÿCond=1/((1) * 1.724e-8)ÿHu=1e+33 mmÿT=0.71 milÿTanD=0.0027 ÿRough=0.075 milÿCond1="cond:drawing"ÿCond2="cond2:drawing"ÿDiel1="diel:drawing"ÿDiel2="diel2:drawing"ÿHole="hole:drawing"ÿRes="resi:drawing"ÿBond="bond:drawing"ÿDielectricLossModel=DielectricLossModelDjordjevicFormÿFreqForEpsrTanD=1 ghzÿLowFreqForTanD=1 khzÿHighFreqForTanD=1 thzÿBbase=ÿDpeaks=ÿL2Rough=ÿL2Bbase=ÿL2Dpeaks=ÿL3Rough=ÿL3Bbase=ÿL3Dpeaks=ÿRoughnessModel=RoughnessModelMultilevelFormÿ
+CMPÿ/ads_datacmps:file/VAR:designÿ0ÿ1ÿ1116.875ÿ-362.5ÿ0ÿ_VAR1ÿNÿNÿOFFÿVariable Value=list(prm("VarFormStdForm",WLead,1.15508),prm("VarFormStdForm",Llead,1.43153),prm("VarFormStdForm",WRes,0.84745),prm("VarFormStdForm",LTAP1,2.89845647585382),prm("VarFormStdForm",LTAP2,0.774008865080144),prm("VarFormStdForm",WC1,0.794744),prm("VarFormStdForm",SC1,0.419111777141185),prm("VarFormStdForm",LR,5.3021365027941),prm("VarFormStdForm",WC2,0.820443),prm("VarFormStdForm",SC2,0.768553949382064),prm("VarFormStdForm",LRB,5.24515854944247),prm("VarFormStdForm",WC3,0.823321),prm("VarFormStdForm",SC3,0.913040654572541),prm("VarFormStdForm",WC4,0.824028),prm("VarFormStdForm",SC4,0.960685948657171),prm("VarFormStdForm",LRC,5.24779465615467))ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__10ÿ
+WIRESEGÿWIRESÿ250ÿ-575ÿ300ÿ-575ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__9ÿ
+WIRESEGÿWIRESÿ400ÿ-775ÿ433.125ÿ-775ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__8ÿ
+WIRESEGÿWIRESÿ633.125ÿ-825ÿ666.875ÿ-825ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__7ÿ
+WIRESEGÿWIRESÿ866.875ÿ-875ÿ900ÿ-875ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__6ÿ
+WIRESEGÿWIRESÿ1100ÿ-925ÿ1133.125ÿ-925ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__5ÿ
+WIRESEGÿWIRESÿ1333.125ÿ-975ÿ1366.875ÿ-975ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__4ÿ
+WIRESEGÿWIRESÿ1566.875ÿ-1025ÿ1600ÿ-1025ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__3ÿ
+WIRESEGÿWIRESÿ1800ÿ-1075ÿ1833.125ÿ-1075ÿ
+WIREÿ0ÿSQUARE,ON,BUSONÿN__2ÿ
+WIRESEGÿWIRESÿ2033.125ÿ-1125ÿ2066.875ÿ-1125ÿ
+ENDPAGEÿ

@@ -75,6 +75,13 @@
 
 \usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
 \addbibresource{include/references.bib}
+%\renewcommand{\refname}{Список источников}  % По умолчанию "Список литературы" (article)
+%\renewcommand{\bibname}{Список источников}  % По умолчанию "Литература" (book и report)
+
+\DefineBibliographyStrings{russian}{%
+	bibliography = {Список источников},
+}
+
 
 \setcounter{tocdepth}{1}
 \usepackage[shortcuts]{extdash}
@@ -129,6 +136,8 @@
 
 \usepackage{titlesec}
 \titleformat{\chapter}{\LARGE\normalfont\bfseries\filcenter}{}{1em}{}
+\titlespacing{\chapter}{0mm}{0mm}{5mm}
+
 \titleformat{\section}{\Large\normalfont\bfseries\filcenter}{}{1em}{}
 \titleformat{\subsection}{\large\normalfont\bfseries\filcenter}{}{1em}{}
 \titleformat{\subsubsection}{\normalfont\bfseries\filcenter}{}{1em}{}

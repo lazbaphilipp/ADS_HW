@@ -54,7 +54,7 @@ majorGridDisplayX 5
 majorGridDisplayY 5
 majorGridDisplayOn 1
 gridDisplayMode 0
-gridSnapOn 1
+gridSnapOn 0
 gridSnapMode 3
 gridColor 104
 windowLLX -5.000000

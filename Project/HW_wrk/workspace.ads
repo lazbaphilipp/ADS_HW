@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="17" Version="100">
+<ADSWorkspace Revision="24" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <Library Name="ads_standard_layers_ic" />
@@ -149,5 +149,39 @@
         <Cell Name="HW_lib:MFilter8_5G_Design" />
         <Cell Name="HW_lib:PMA_Adap_in" />
         <Cell Name="HW_lib:PMA_Adap_out" />
+        <Data_Display Name="Filter.dds" />
+        <Log Name="writedxf.log" />
+        <Log Name="writeiff.log" />
+        <Preferences Name="ads_rflib_lay.prf" />
+        <Preferences Name="ads_sources_lay.prf" />
+        <Dataset Name="Filter.ds" />
+        <Dataset Name="MainAdap_MomUW.ds" />
+        <Dataset Name="MainAdap_MomUW_a.ds" />
+        <Data_Files Name="Filter.ds" />
+        <Data_Files Name="Filter_data\logFile.txt" />
+        <Data_Files Name="MainAdap_MomUW.ds" />
+        <Data_Files Name="MainAdap_MomUW_a.ds" />
+        <Cell Name="HW_lib:MainAdap" />
+        <Cell Name="HW_lib:LTC5597" />
+        <Dataset Name="LTC5597.ds" />
+        <Data_Files Name="LTC5597.ds" />
+        <Data_Files Name="LTC5597_data\logFile.txt" />
+        <Cell Name="HW_lib:LTC_Adap" />
+        <Dataset Name="LTC_Adap_MomUW.ds" />
+        <Data_Files Name="LTC_Adap_MomUW.ds" />
+        <Dataset Name="LTC_Adap_MomUW_a.ds" />
+        <Data_Files Name="LTC_Adap_MomUW_a.ds" />
+        <Data_Display Name="LTC5597.dds" />
+        <Dataset Name="PMA_Adap_in.ds" />
+        <Data_Files Name="PMA_Adap_in.ds" />
+        <Data_Files Name="PMA_Adap_in_data\logFile.txt" />
+        <Dataset Name="MFilter8_5G_Design_MomUW.ds" />
+        <Data_Files Name="MFilter8_5G_Design_MomUW.ds" />
+        <Dataset Name="MFilter8_5G_Design_MomUW_a.ds" />
+        <Data_Files Name="MFilter8_5G_Design_MomUW_a.ds" />
+        <Dataset Name="Fishtler.ds" />
+        <Data_Files Name="Fishtler.ds" />
+        <Data_Files Name="Fishtler_data\logFile.txt" />
+        <Log Name="readdxf.log" />
     </Workspace>
 </ADSWorkspace>

@@ -479,7 +479,7 @@
       <SaveFieldsType>2</SaveFieldsType>
     </FemSimReuseVisualization>
     <MomLayout version="1.0">
-      <workspaceText>D:\Study\ADS_HW\HW_wrk</workspaceText>
+      <workspaceText>C:\Users\Afterer\Desktop\Stuffdy\MIET-RF-PCB-Design\Project\HW_wrk</workspaceText>
       <libraryText>HW_lib</libraryText>
       <cellText>PMA_Adap_in</cellText>
       <viewText>layout</viewText>
@@ -576,18 +576,6 @@
                 <TLMeshType>0</TLMeshType>
                 <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
               </MomSimOptMeshNetSpecMapData>
-              <keyName>N__5</keyName>
-              <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>N__5</netName>
-                <MeshDensityType>0</MeshDensityType>
-                <MeshDensity>0</MeshDensity>
-                <MeshDensityUnit></MeshDensityUnit>
-                <EdgeMeshType>0</EdgeMeshType>
-                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-                <TLMeshType>0</TLMeshType>
-                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-              </MomSimOptMeshNetSpecMapData>
               <keyName>N__6</keyName>
               <MomSimOptMeshNetSpecMapData version="1.0">
                 <netName>N__6</netName>
@@ -615,18 +603,6 @@
               <keyName>P1</keyName>
               <MomSimOptMeshNetSpecMapData version="1.0">
                 <netName>P1</netName>
-                <MeshDensityType>0</MeshDensityType>
-                <MeshDensity>0</MeshDensity>
-                <MeshDensityUnit></MeshDensityUnit>
-                <EdgeMeshType>0</EdgeMeshType>
-                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-                <TLMeshType>0</TLMeshType>
-                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-              </MomSimOptMeshNetSpecMapData>
-              <keyName>P2</keyName>
-              <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>P2</netName>
                 <MeshDensityType>0</MeshDensityType>
                 <MeshDensity>0</MeshDensity>
                 <MeshDensityUnit></MeshDensityUnit>
@@ -711,13 +687,6 @@
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
               </MomSimOptSubstrateNetSpecMapData>
-              <keyName>N__5</keyName>
-              <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>N__5</netName>
-                <MetalExpansion>0</MetalExpansion>
-                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-              </MomSimOptSubstrateNetSpecMapData>
               <keyName>N__6</keyName>
               <MomSimOptSubstrateNetSpecMapData version="1.0">
                 <netName>N__6</netName>
@@ -735,13 +704,6 @@
               <keyName>P1</keyName>
               <MomSimOptSubstrateNetSpecMapData version="1.0">
                 <netName>P1</netName>
-                <MetalExpansion>0</MetalExpansion>
-                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-              </MomSimOptSubstrateNetSpecMapData>
-              <keyName>P2</keyName>
-              <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>P2</netName>
                 <MetalExpansion>0</MetalExpansion>
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -923,18 +885,6 @@
               <TLMeshType>0</TLMeshType>
               <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
             </MomSimOptMeshNetSpecMapData>
-            <keyName>N__5</keyName>
-            <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>N__5</netName>
-              <MeshDensityType>0</MeshDensityType>
-              <MeshDensity>0</MeshDensity>
-              <MeshDensityUnit></MeshDensityUnit>
-              <EdgeMeshType>0</EdgeMeshType>
-              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-              <TLMeshType>0</TLMeshType>
-              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-            </MomSimOptMeshNetSpecMapData>
             <keyName>N__6</keyName>
             <MomSimOptMeshNetSpecMapData version="1.0">
               <netName>N__6</netName>
@@ -962,18 +912,6 @@
             <keyName>P1</keyName>
             <MomSimOptMeshNetSpecMapData version="1.0">
               <netName>P1</netName>
-              <MeshDensityType>0</MeshDensityType>
-              <MeshDensity>0</MeshDensity>
-              <MeshDensityUnit></MeshDensityUnit>
-              <EdgeMeshType>0</EdgeMeshType>
-              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-              <TLMeshType>0</TLMeshType>
-              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-            </MomSimOptMeshNetSpecMapData>
-            <keyName>P2</keyName>
-            <MomSimOptMeshNetSpecMapData version="1.0">
-              <netName>P2</netName>
               <MeshDensityType>0</MeshDensityType>
               <MeshDensity>0</MeshDensity>
               <MeshDensityUnit></MeshDensityUnit>
@@ -1058,13 +996,6 @@
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
             </MomSimOptSubstrateNetSpecMapData>
-            <keyName>N__5</keyName>
-            <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>N__5</netName>
-              <MetalExpansion>0</MetalExpansion>
-              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-            </MomSimOptSubstrateNetSpecMapData>
             <keyName>N__6</keyName>
             <MomSimOptSubstrateNetSpecMapData version="1.0">
               <netName>N__6</netName>
@@ -1082,13 +1013,6 @@
             <keyName>P1</keyName>
             <MomSimOptSubstrateNetSpecMapData version="1.0">
               <netName>P1</netName>
-              <MetalExpansion>0</MetalExpansion>
-              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-            </MomSimOptSubstrateNetSpecMapData>
-            <keyName>P2</keyName>
-            <MomSimOptSubstrateNetSpecMapData version="1.0">
-              <netName>P2</netName>
               <MetalExpansion>0</MetalExpansion>
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -1334,6 +1258,34 @@
             </PartitionItem>
           </offeringMap>
         </PartitionCellDef>
+        <keyName>ads_tlines:MLOC</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
         <keyName>ads_tlines:MTEE_ADS</keyName>
         <PartitionCellDef version="1.0">
           <definedBy>0</definedBy>
@@ -1372,14 +1324,6 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>HW_lib:PMA_Adap_in:layout:TL2</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:MLIN:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
         <keyName>HW_lib:PMA_Adap_in:layout:TL3</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
@@ -1399,7 +1343,7 @@
         <keyName>HW_lib:PMA_Adap_in:layout:TL5</keyName>
         <PartitionInstDef version="1.1">
           <definedBy>34</definedBy>
-          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <libCellView>ads_tlines:MLOC:layout</libCellView>
           <selectedCosimOffering>em</selectedCosimOffering>
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
@@ -1436,7 +1380,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>-0.0013:0</stdItem>
+                  <stdItem>-0.001:0</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1444,7 +1388,7 @@
           </Pin>
           <Pin version="1.1">
             <pinName>P2</pinName>
-            <netName>P2</netName>
+            <netName>P3</netName>
             <pinNum>2</pinNum>
             <toolInfo/>
             <compInfo/>
@@ -1455,26 +1399,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.0005:-0.0017</stdItem>
-                </points>
-              </PinShapeDef>
-            </shapes>
-            <deltaGapInfo/>
-          </Pin>
-          <Pin version="1.1">
-            <pinName>P3</pinName>
-            <netName>P3</netName>
-            <pinNum>3</pinNum>
-            <toolInfo/>
-            <compInfo/>
-            <shapes>
-              <PinShapeDef version="1.0">
-                <layerNum>1</layerNum>
-                <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
-                <shapeType>point</shapeType>
-                <points>
-                  <stdItem>0.0039:0</stdItem>
+                  <stdItem>0.0031:0</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1516,28 +1441,13 @@
               <stdItem>::__GND__</stdItem>
             </MinusPinNames>
           </Port>
-          <Port version="1.3">
-            <portNum>3</portNum>
-            <portName>P3</portName>
-            <refImpedance>50:0</refImpedance>
-            <feedType>Auto</feedType>
-            <refoffset>0</refoffset>
-            <termType>2</termType>
-            <gndLayer></gndLayer>
-            <PlusPinNames>
-              <stdItem>P3</stdItem>
-            </PlusPinNames>
-            <MinusPinNames>
-              <stdItem>::__GND__</stdItem>
-            </MinusPinNames>
-          </Port>
         </Ports>
       </PortView>
     </PortEditorDialog>
     <SimSetupOverview version="2.0">
       <setupType>0</setupType>
       <simulator>0</simulator>
-      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: D:\Study\ADS_HW\HW_wrk&lt;br>Library: HW_lib&lt;br>Cell: PMA_Adap_in&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: tech (defined in library: HW_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">3 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 8 GHz to 9 GHz (Npts (50 max))&lt;br>Discrete from 8.5 GHz to 8.5 GHz (Npts 1)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: PMA_Adap_in_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
+      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\Afterer\Desktop\Stuffdy\MIET-RF-PCB-Design\Project\HW_wrk&lt;br>Library: HW_lib&lt;br>Cell: PMA_Adap_in&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: tech (defined in library: HW_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">2 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 8 GHz to 9 GHz (Npts (50 max))&lt;br>Discrete from 8.5 GHz to 8.5 GHz (Npts 1)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: PMA_Adap_in_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
     </SimSetupOverview>
     <SimulationResources2 version="1.0">
       <resourceType>LocalRemote</resourceType>

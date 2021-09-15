@@ -9,8 +9,8 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>-0.0024</x>
-          <y>0</y>
+          <x>-0.00196</x>
+          <y>0.00055</y>
         </point>
       </shape>
     </layout>
@@ -23,22 +23,8 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>-0.00055</x>
-          <y>0.00205</y>
-        </point>
-      </shape>
-    </layout>
-  </pin>
-  <pin>
-    <name>P3</name>
-    <net>P3</net>
-    <layout>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <point>
-          <x>0.0005</x>
-          <y>0</y>
+          <x>0.00155</x>
+          <y>0.00055</y>
         </point>
       </shape>
     </layout>
