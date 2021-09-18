@@ -1,5 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Layout x1="205" width="1536" cell="CLC_EMI" view="layout" y1="229" height="742" geom="1,0,0,205,229,1536,742,1920,1080" lib="HW_lib"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

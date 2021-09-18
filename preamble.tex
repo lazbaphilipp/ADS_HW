@@ -31,8 +31,6 @@
 \usepackage{mathrsfs}
 \usepackage{gensymb}
 
-%% My commands
-\DeclareMathOperator{\sgn}{\mathop{sgn}}
 
 %%
 \newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=Opt #1$}}{}}
@@ -45,6 +43,10 @@
     {images/parts_design}
     {images/system_modeling}
     {images/task}
+    {images/Altium-Components}
+    {images/Altium-Draftsman}
+    {images/Altium-PCB}
+    {images/Altium-Schematic}
 }
 \setlength\fboxsep{3pt}
 \setlength\fboxrule{1pt}
@@ -73,12 +75,12 @@
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
 
-\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
+%% Список источников
+\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=none]{biblatex}
 \addbibresource{include/references.bib}
 \DefineBibliographyStrings{russian}{%
 	bibliography = {Список источников},
 }
-
 
 \setcounter{tocdepth}{1}
 \usepackage[shortcuts]{extdash}
@@ -88,10 +90,10 @@
 %% Page
 \usepackage{extsizes}
 \usepackage{geometry}
-\geometry{top=25mm}
-\geometry{bottom=35mm}
-\geometry{left=20mm}
-\geometry{right=20mm}
+\geometry{top=20mm}
+\geometry{bottom=30mm}
+\geometry{left=15mm}
+\geometry{right=15mm}
 
 %% Page headers
 \usepackage{fancyhdr}
@@ -118,6 +120,11 @@
     bookmarks=true,
     pdfpagemode=FullScreen,
 }
+
+% Вложенные файлы
+\usepackage{attachfile}
+
+
 
 %%
 \renewcommand{\epsilon}{\ensuremath{\varepsilon}}
