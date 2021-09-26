@@ -55,45 +55,44 @@
 
 \section{Выбор ВЧ-элементной базы}
 \subsection{Выбор МШУ}
-
 	\begin{frame}[shrink=30]
-		\frametitle{\insertsection}
-		\framesubtitle{\insertsubsection}
-		
-		\begin{figure}
-			\begin{subfigure}[t]{0.5\textwidth}
-				\vspace{-0.8\textheight}
-				\begin{subfigure}[t]{\textwidth}
-					\begin{center}
-						\includegraphics[width=\textwidth]{LNA_3D_View.png}
-						\vspace*{0.05\textheight} 
-					\end{center}
-				\end{subfigure}
-			
-				\begin{subfigure}[b]{\textwidth}
-					\begin{center}
-						\begin{tabular}{|c|c|c|c|}
-							\hline
-							F & Kу & NF & IP3 \\
-							\hline
-							6 --- 18 ГГц & 26 дБ & 1.2 дБ & 30 дБм \\
-							\hline
-						\end{tabular}
-					\end{center}
-				\end{subfigure}
-			\end{subfigure}%
-			%
-			\begin{subfigure}[b]{0.5\textwidth}
-					\begin{subfigure}[t]{\textwidth}
-						\includegraphics[width=\textwidth]{PMA-GvsFvsV.pdf}
+			\frametitle{\insertsection}
+			\framesubtitle{\insertsubsection}
+			\begin{center}
+				\begin{figure}
+					\begin{subfigure}[t]{0.5\textwidth}
+						\vspace{-1\textheight}%
+						\begin{subfigure}[t]{\textwidth}
+							\begin{center}
+								\includegraphics[width=\textwidth, height = 0.6\textheight, keepaspectratio]{LNA_3D_View.png}
+								\vspace*{0.05\textheight} 
+							\end{center}
+						\end{subfigure}
+					
+						\begin{subfigure}[b]{\textwidth}
+							\begin{center}
+								\begin{tabular}{|c|c|c|c|}
+									\hline
+									F & Kу & NF & IP3 \\
+									\hline
+									6 --- 18 ГГц & 26 дБ & 1.2 дБ & 30 дБм \\
+									\hline
+								\end{tabular}
+							\end{center}
+						\end{subfigure}
+					\end{subfigure}%
+					%
+					\begin{subfigure}[b]{0.5\textwidth}
+							\begin{subfigure}[t]{\textwidth}
+								\includegraphics[width=\textwidth]{PMA-GvsFvsV.pdf}
+							\end{subfigure}
+						
+							\begin{subfigure}[b]{\textwidth}
+								\includegraphics[width=\textwidth]{PMA-NFvsFvsV.pdf}
+							\end{subfigure}
 					\end{subfigure}
-				
-					\begin{subfigure}[b]{\textwidth}
-						\includegraphics[width=\textwidth]{PMA-NFvsFvsV.pdf}
-					\end{subfigure}
-			\end{subfigure}
-		\end{figure}
-		
+				\end{figure}
+			\end{center}
 	\end{frame}
 
 \subsection{Выбор детектора мощности}\label{susec:PD_choosing}
@@ -104,11 +103,11 @@
 		\begin{center}
 			\begin{figure}
 				\begin{subfigure}{0.5\textwidth}
-					\includegraphics[width=0.9\textwidth]{PD_3D_View.png}
+					\includegraphics[width=0.9\textwidth,height =\textheight, keepaspectratio]{PD_3D_View.png}
 				\end{subfigure}%
 				%
 				\begin{subfigure}{0.5\textwidth}
-					\includegraphics[width=0.9\textwidth, trim={0cm 0cm 6.1cm 0.8cm}, clip]{LTC-power-limits.pdf}
+					\includegraphics[width=0.9\textwidth,height =\textheight, keepaspectratio, trim={0cm 0cm 6.1cm 0.8cm}, clip]{LTC-power-limits.pdf}
 				\end{subfigure}
 			\end{figure}
 		Зависимость выходного напряжения и ошибки от входной мощности в рабочей полосе.
@@ -137,7 +136,6 @@
 		\framesubtitle{\insertsubsection}
 		\begin{center}
 			\begin{figure}
-				
 				\begin{subfigure}{0.5\textwidth}
 					\begin{subfigure}[t]{0.95\textwidth}
 						\includegraphics[height=0.4\paperheight, keepaspectratio]{MC_3D_View.png}
@@ -199,8 +197,8 @@
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
 		\centering
-		\hspace*{-0.05\textwidth}%
-		\includegraphics[width=1.1\textwidth, height=\textheight, keepaspectratio]{LNA_Response_Z.pdf}
+		%\hspace*{-0.05\textwidth}%
+		\includegraphics[width=0.9\paperwidth, height=\textheight, keepaspectratio]{LNA_Response_Z.pdf}
 		
 	\end{frame}
 	
@@ -208,18 +206,24 @@
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
 		\centering
-		\hspace*{-0.075\textwidth}%
-		\includegraphics[width=1.15\textwidth, height=\textheight, keepaspectratio]{Utilities.png}
+		%\hspace*{-0.075\textwidth}%
+		\includegraphics[width=0.9\paperwidth, height=\textheight, keepaspectratio]{Utilities.png}
 		
 	\end{frame}
 
 	\begin{frame}
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
-		\centering
-		\hspace*{-0.075\textwidth}%
-		\includegraphics[width=0.6\textwidth, height=0.37\textheight, keepaspectratio]{LNA_Response.pdf}%
-		\includegraphics[width=0.6\textwidth, height=0.37\textheight, keepaspectratio]{LNA_VSWR.pdf}
+		\begin{center}
+			\begin{figure}
+				\begin{subfigure}{0.45\paperwidth}
+					\includegraphics[width=\textwidth,keepaspectratio]{LNA_Response.pdf}%
+				\end{subfigure}%
+				\begin{subfigure}{0.45\paperwidth}
+					\includegraphics[width=\textwidth,keepaspectratio]{LNA_VSWR.pdf}
+				\end{subfigure}
+			\end{figure}
+		\end{center}
 	\end{frame}
 	
 	\begin{frame}
@@ -270,8 +274,8 @@
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
 		\centering
-		\hspace*{-0.075\textwidth}%
-		\includegraphics[width=1.15\textwidth, height=\textheight, keepaspectratio]{SystemSch.pdf}
+		%\hspace*{-0.075\textwidth}%
+		\includegraphics[width=0.9\paperwidth, height=0.95\textheight, keepaspectratio]{SystemSch.pdf}
 		
 	\end{frame}
 	
@@ -279,8 +283,8 @@
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
 		\centering
-		\hspace*{-0.075\textwidth}%
-		\includegraphics[width=1.15\textwidth, height=\textheight, keepaspectratio]{SystemResponse.pdf}
+		%\hspace*{-0.075\textwidth}%
+		\includegraphics[width=0.9\paperwidth, height=0.85\textheight, keepaspectratio]{SystemResponse.pdf}
 		
 	\end{frame}
 
@@ -290,7 +294,6 @@
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
 		\centering
-		\hspace*{-0.075\textwidth}%
 		\includegraphics[width=1.15\textwidth, height=0.6\textheight, keepaspectratio]{SystemNF.pdf}
 		
 	\end{frame}
@@ -349,23 +352,23 @@
 	\begin{frame}
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
-		\centering
-		\begin{figure}
-			\begin{subfigure}[t]{0.45\textwidth}
-				\includegraphics[width=0.9\textwidth, height=0.35\textheight, keepaspectratio]{LNA_PCB_View.pdf}
-			\end{subfigure}%
-			\begin{subfigure}[t]{0.45\textwidth}
-				\includegraphics[width=0.9\textwidth, height=0.4\textheight, keepaspectratio, angle=0]{MC_PCB_View.pdf}
-			\end{subfigure}
-			
-			\begin{subfigure}[b]{0.45\textwidth}
-				\includegraphics[width=0.9\textwidth, height=0.35\textheight, keepaspectratio, angle=-90]{PD_PCB_View.pdf}
-			\end{subfigure}%
-			\begin{subfigure}[b]{0.45\textwidth}
-				\includegraphics[width=0.9\textwidth, height=0.4\textheight, keepaspectratio, angle=-90]{PM_PCB_View.pdf}
-			\end{subfigure}
-		\end{figure}
-		
+		\begin{center}
+			\begin{figure}
+				\begin{subfigure}[t]{0.5\textwidth}
+					\includegraphics[width=0.9\textwidth, height=0.35\textheight, keepaspectratio]{LNA_PCB_View.pdf}
+				\end{subfigure}%
+				\begin{subfigure}[t]{0.5\textwidth}
+					\includegraphics[width=0.9\textwidth, height=0.4\textheight, keepaspectratio, angle=0]{MC_PCB_View.pdf}
+				\end{subfigure}
+				
+				\begin{subfigure}[b]{0.5\textwidth}
+					\includegraphics[width=0.9\textwidth, height=0.35\textheight, keepaspectratio, angle=-90]{PD_PCB_View.pdf}
+				\end{subfigure}%
+				\begin{subfigure}[b]{0.5\textwidth}
+					\includegraphics[width=0.9\textwidth, height=0.4\textheight, keepaspectratio, angle=-90]{PM_PCB_View.pdf}
+				\end{subfigure}
+			\end{figure}
+		\end{center}
 	\end{frame}
 
 \subsection{Топология}
@@ -374,7 +377,7 @@
 		\frametitle{\insertsection}
 		\framesubtitle{\insertsubsection}
 		\centering
-		\includegraphics[width=\textwidth, height=0.9\textheight, keepaspectratio]{2LayerAll.pdf}	
+		\includegraphics[width=\textwidth, height=0.8\textheight, keepaspectratio]{2LayerAll.pdf}	
 		
 	\end{frame}
 
@@ -484,31 +487,37 @@
 	\end{frame}
 
 	\begin{frame}[plain]
+		\centering
 		\hspace*{-0.1\textwidth}%
 		\includegraphics[width=\paperwidth, height=\textheight, keepaspectratio, page=1]{DocShowOff.pdf}
 	\end{frame}
 
 	\begin{frame}[plain]
+		\centering
 		\hspace*{-0.1\textwidth}%
 		\includegraphics[width=\paperwidth, height=\textheight, keepaspectratio, page=2]{DocShowOff.pdf}
 	\end{frame}
 
 	\begin{frame}[plain]
+		\centering
 		\hspace*{-0.1\textwidth}%
 		\includegraphics[width=\paperwidth, height=\textheight, keepaspectratio, page=3]{DocShowOff.pdf}
 	\end{frame}
 
 	\begin{frame}[plain]
+		\centering
 		\hspace*{-0.1\textwidth}%
 		\includegraphics[width=\paperwidth, height=\textheight, keepaspectratio, page=4]{DocShowOff.pdf}
 	\end{frame}
 
 	\begin{frame}[plain]
+		\centering
 		\hspace*{-0.1\textwidth}%
 		\includegraphics[width=\paperwidth, height=\textheight, keepaspectratio, page=9]{DocShowOff.pdf}
 	\end{frame}
 
 	\begin{frame}[plain]
+		\centering
 		\hspace*{-0.1\textwidth}%
 		\includegraphics[width=\paperwidth, height=\textheight, keepaspectratio, page=10]{DocShowOff.pdf}
 	\end{frame}
